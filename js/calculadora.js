@@ -10,7 +10,8 @@ function iniciar(){
 
 function sumar(){
     let res = n1 + n2;
-    salida.innerHTML = "La suma de "+n1+" + "+n2+" = "+res;
+    salida.innerHTML = "La suma de "+n1+" + "+n2+" = "+res + "(editado por feature2)";
+
 }
 
 function restar(){
