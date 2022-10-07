@@ -12,3 +12,8 @@ function sumar(){
     let res = n1 + n2;
     salida.innerHTML = "La suma de "+n1+" + "+n2+" = "+res;
 }
+
+function dividir(){
+    let res = n1 / n2;
+    salida.innerHTML = "La división de "+n1+" / "+n2+" = "+res;
+}
