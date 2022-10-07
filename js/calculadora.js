@@ -17,3 +17,8 @@ function restar(){
     let res = n1 - n2;
     salida.innerHTML = "La resta de "+n1+" - "+n2+" = "+res;
 }
+
+function multiplicar(){
+    let res = n1 * n2;
+    salida.innerHTML = "La multiplicación de "+n1+" * "+n2+" = "+res;
+}
