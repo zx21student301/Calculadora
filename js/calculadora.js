@@ -10,7 +10,8 @@ function iniciar(){
 
 function sumar(){
     let res = n1 + n2;
-    salida.innerHTML = "La suma de "+n1+" + "+n2+" = "+res;
+    salida.innerHTML = "La suma de "+n1+" + "+n2+" = "+res + "(editado por feature2)";
+
 }
 
 function dividir(){
@@ -25,4 +26,8 @@ function restar(){
 function multiplicar(){
     let res = n1 * n2;
     salida.innerHTML = "La multiplicación de "+n1+" * "+n2+" = "+res;
+}
+function dividir(){
+    let res = n1 / n2;
+    salida.innerHTML = "La división de "+n1+" / "+n2+" = "+res;
 }
